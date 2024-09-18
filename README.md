@@ -11,6 +11,8 @@ Tesoura corta papel
 
 Como construir o jogo? 
 No site https://dotnetfiddle.net/ use o seguinte codigo c#:
+
+
 using System;
 
 namespace PedraPapelTesoura
