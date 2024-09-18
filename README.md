@@ -4,9 +4,13 @@
 O que e? Jogo de multiplha escolha 
 
 Como funciona? Voce escolhe entre; pedra, papel ou tesoura. Em seguida o computador tambem escolhera uma opcao. 
+
 Pedra quebra tesoura 
+
 Pepel ebrulha pedra
+
 Tesoura corta papel 
+
 
 Como construir o jogo? 
 No site https://dotnetfiddle.net/ use o seguinte codigo c#:
