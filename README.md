@@ -67,3 +67,23 @@ namespace PedraPapelTesoura
     }
 }
 ```
+
+Comandos basicos do git:
+
+git config: entrar na nuvem
+
+git clone: adicionar o repositorio criado no computador
+
+git status: olhar se teve alteracao no arquivo
+
+git add .: adicionar as mudancas feitas
+
+git push : salvar do computador para nuvem
+
+git log: exibir o historico do seu repositorio
+
+git pull: subir arquivos da nuvem para outro computador
+
+git commit: gravar as alteracoes
+
+git init: inicializar o git
