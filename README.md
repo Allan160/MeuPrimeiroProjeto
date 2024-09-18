@@ -1,6 +1,6 @@
 # MeuPrimeiroProjet
 
-![alt text](<execucao do jogo-1.png>)
+![alt text](<execucao do jogo.png>)
 O que e? Jogo de multiplha escolha 
 
 Como funciona? Voce escolhe entre; pedra, papel ou tesoura. Em seguida o computador tambem escolhera uma opcao. 
