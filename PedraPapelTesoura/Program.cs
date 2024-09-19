@@ -4,7 +4,7 @@ namespace PedraPapelTesoura
 {
     class Program
     {
-        static void Main(string[] args) // Corrigido 'sting' para 'string'
+        static void Main(string[] args)
         {
             Random random = new Random();
             string[] opcoes = { "pedra", "papel", "tesoura" };
@@ -14,22 +14,22 @@ namespace PedraPapelTesoura
             do
             {
                 Console.WriteLine("Escolha uma opcao: pedra, papel ou tesoura");
-                escolhaUsuario = Console.ReadLine().ToLower(); // Corrigido 'escolaUsuario' para 'escolhaUsuario'
+                escolhaUsuario = Console.ReadLine().ToLower();
 
                 if (Array.Exists(opcoes, opcao => opcao == escolhaUsuario))
                 {
-                    int escolhaComputadorIndex = random.Next(0, 3); // Corrigido 'escolhaCompuradorIdex' para 'escolhaComputadorIndex'
+                    int escolhaComputadorIndex = random.Next(0, 3);
                     string escolhaComputador = opcoes[escolhaComputadorIndex];
 
-                    Console.WriteLine($"O computador escolheu: {escolhaComputador}"); // Corrigido 'escolhaCoputador' para 'escolhaComputador'
+                    Console.WriteLine($"O computador escolheu: {escolhaComputador}");
 
                     if (escolhaUsuario == escolhaComputador)
                     {
                         Console.WriteLine("Empate!");
                     }
                     else if ((escolhaUsuario == "pedra" && escolhaComputador == "tesoura") || 
-                             (escolhaUsuario == "papel" && escolhaComputador == "pedra") || // Corrigido para 'papel' ganha de 'pedra'
-                             (escolhaUsuario == "tesoura" && escolhaComputador == "papel")) // Adicionado caso para 'tesoura'
+                             (escolhaUsuario == "papel" && escolhaComputador == "pedra") ||
+                             (escolhaUsuario == "tesoura" && escolhaComputador == "papel")) 
                     {
                         Console.WriteLine("Voce ganhou!");
                     }
@@ -40,7 +40,7 @@ namespace PedraPapelTesoura
                 }
                 else
                 {
-                    Console.WriteLine("Opcao invalida! Tente novamente!"); // Corrigido a estrutura 'else'
+                    Console.WriteLine("Opcao invalida! Tente novamente!");
                 }
 
                 Console.WriteLine("Deseja jogar novamente? (s/n)");
